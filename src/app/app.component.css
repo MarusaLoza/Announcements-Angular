@@ -1,0 +1,56 @@
+.header{
+  display: flex;
+}
+.header p{
+  width: 200px;
+  font-weight: bold;
+}
+
+.contentBlock {
+  display: flex;
+  align-items: center;
+}
+
+.contentBlock button {
+  margin: 0 50px;
+}
+
+.contentBlock input {
+  height: 25px;
+  width: 190px;
+  margin-right: 5px;
+  border: 0;
+}
+
+.del {
+  width: 100px;
+  height: 25px;
+  border-radius: 30px;
+  border: 0;
+  border-color: #fff;
+  color: #000;
+  box-shadow: 0 0 40px 40px #f3747f inset, 0 0 0 0 #f3747f;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.del:hover {
+  box-shadow: 0 0 10px 0 #f89da5 inset, 0 0 10px 4px #f89da5;
+}
+
+.add {
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 30px;
+  border: 0;
+  border-color: #fff;
+  color: #000;
+  box-shadow: 0 0 40px 40px #90f378 inset, 0 0 0 0 #90f378;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.add:hover {
+  box-shadow: 0 0 10px 0 #baf1ac inset, 0 0 10px 4px #baf1ac;
+}
